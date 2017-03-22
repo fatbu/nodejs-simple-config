@@ -13,7 +13,7 @@ module.exports = function(configfile){
     config_data = config_data.filter(Boolean); // Remove all blank strings
     var config = {};
     for(var i=0; i<config_data.length; i++){
-        if(config_data[i].match(/\s/)){
+        if(config_data[i].match(/\s(.*)/)){
             config[config_data[i].match(/\w+\s/)[0].trim()] = config_data[i].match(/\s(.*)/)[0].trim(); // messy code
         }
     }
