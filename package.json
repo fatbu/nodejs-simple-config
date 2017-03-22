@@ -10,6 +10,9 @@
       "type": "git",
       "url": "https://github.com/fatbu/nodejs-simple-config"
   },
+  "scripts": {
+      "test": "node test"
+  },
   "author": "fatbu",
   "license": "ISC"
 }
