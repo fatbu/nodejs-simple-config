@@ -1,5 +1,5 @@
 {
-  "name": "simple-config",
+  "name": "very-simple-config",
   "version": "1.0.0",
   "description": "simple node.js configuration file utility",
   "main": "simpleconfig.js",

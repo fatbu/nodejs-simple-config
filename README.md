@@ -9,7 +9,7 @@ username fatbu
 
 index.js:
 ```
-var config = require('./simpleconfig.js')('example-config');
+var config = require('very-simple-config')('example-config');
 console.log(config.username);
 ```
 
