@@ -1,0 +1,15 @@
+{
+  "name": "simple-config",
+  "version": "1.0.0",
+  "description": "simple node.js configuration file utility",
+  "main": "simpleconfig.js",
+  "keywords": [
+    "config"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/fatbu/nodejs-simple-config"
+  },
+  "author": "fatbu",
+  "license": "ISC"
+}
